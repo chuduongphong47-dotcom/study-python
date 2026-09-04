@@ -1,12 +1,13 @@
 a = int(input())
 b = int(input())
-def kiemtraucln(a,b):
-    ucln = 1
+ucln = 1
+def ktra(a, b):
     for i in range(1, a + 1):
         if a % i ==0 and b % i == 0:
-            ucln = i
+           ucln = i
 
     if ucln == 1:
         print("Dung")
     else:
         print("Sai")
+ktra(a, b)
